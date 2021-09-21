@@ -34,8 +34,9 @@ class trie{
 			int index= s.charAt(idx)-'a';
 			if(iterate.n[index]==null){
 				iterate.n[index]=new Node();
-				iterate.end=true;
+				
 			}
+			iterate.end=true;
 			return;
 		}
 		//getting current character index
